@@ -1,0 +1,49 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main {
+    margin: 20% auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+
+.tab {
+    transition: all 0.1s;
+    padding: 1.5%;
+    display: inline-block;
+    margin: 1.5%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 3px solid #ff9900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
