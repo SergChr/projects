@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #e8e3e3;
+}
+
+#calculator {
+    -webkit-box-shadow: -9px 14px 35px -6px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: -9px 14px 35px -6px rgba(0, 0, 0, 0.72);
+    box-shadow: -9px 14px 35px -6px rgba(0, 0, 0, 0.72);
+    border-radius: 20px;
+    text-align: center;
+    margin: 3% auto;
+    width: 20%;
+    border: 3px solid #fff;
+    padding: 1%;
+    background-color: #0a7daf;
+}
+
+.output {
+    text-align: right;
+    padding: 4%;
+    margin: 1% auto;
+    width: 85%;
+    background-color: #fcfcfc;
+}
+
+button {
+    width: auto;
+    padding: 8.5%;
+    margin: 1%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 252, 250);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(77, 73, 77, 1);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(77, 73, 77, 1);
+    box-shadow: 0px 0px 16px -1px rgba(77, 73, 77, 1);
+}
+
+button:hover {
+    background-color: #E1DDED;
+}
+
+.c {
+    background-color: #e80f00;
+    color: #fff;
+}
+
+.c:hover {
+    background-color: #c60c00;
+}
+
+#calculator .title {
+    color: #fff;
+}
+
+.sin,
+.tan,
+.cos {
+    padding: 6.5%;
+}
