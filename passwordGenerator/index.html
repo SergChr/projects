@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="generator.js"></script>
+    <script src="md5.min.js"></script>
+    <script src="interface.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <font class="title">passwordGenerator<font style="color: rgb(63, 191, 95);">.js</font></font>
+       
+    </div>
+    
+    <div class="randomCode">
+        
+        </div>
+    
+    <div class="simple">
+        
+    
+       Length of password: <input type="text" size="1" value="8" id="length"> <font class="error">Only integers !</font>
+        <br>
+        <input type="checkbox" id="uppercase"> Upper case letters  
+        <input type="checkbox" id="numbers"> Numbers   
+        <input type="checkbox" id="specials"> Special symbols
+        <input type="checkbox" id="rarespecials"> Rare special symbols
+        <input type="checkbox" id="paranoik"> I'm paranoik
+        <br>
+        
+        <button value="Generate" id="button">Generate</button>
+        <br>
+        <textarea id="result"></textarea> <br>
+        <button id="copy">Copy</button>   
+        <button id="toMD5">To MD5</button>
+    </div>
+    
+    <div class="evalBlock">
+       Approximate time needed for bruteforce this password (10 million keys per second):<br>
+    <font class="evalTime"></font>
+    </div>
+    
+</body>
+
+</html>

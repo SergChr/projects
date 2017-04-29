@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 3%; 
+    text-align: center;
+}
+
+.simple {
+    background-color: rgb(63, 191, 95);
+    color: #fff;
+    width: 100%;
+   margin-bottom: 1%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+input[type="text"], textarea {
+    padding: 0.5%;
+    font-size: 1.2rem;
+    margin: 1%;
+}
+
+textarea {
+    width: 80%;
+}
+
+#button {
+    margin: 1%;
+}
+
+input[type="checkbox"] {
+margin-left: 1.5%;
+}
+
+.error {
+    visibility: hidden;
+    padding: 5px;
+    background-color: orangered;
+    color: #fff;
+}
+
+.evalTime {
+    margin: 1% auto;
+    visibility: hidden;
+    font-size: 1.3rem;
+}
+
+.evalBlock {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    visibility: hidden;
+}
+
+.randomCode {
+    background-color: rgba(193, 208, 205, 0.2);
+    padding: 2px;  
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.4rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 1%;
+    transition: .2s;
+}
+button:hover {
+    background-color: rgba(247, 255, 247, 0.7);
+}
+
+
+
+
+
+
+
