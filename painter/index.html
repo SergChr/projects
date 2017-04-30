@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="settings">
+        Instrument width:
+        <label><input class="range" type="range" min="0" max="250" value="5"> </label>
+        
+        <label>Color:
+        <input type="color" class="color"></label> 
+        
+        <label><div class="instruments">
+            <div class="red choose" value="#FF0F0F"></div>
+            <div class="black choose" value="#000000"></div>
+            <div class="white choose" value="#FFFFFF"></div>
+            <div class="green choose" value="#3FFF0F"></div>
+            <div class="yellow choose" value="#FFFB0F"></div>
+            <div class="blue choose" value="#1F0FFF"></div>
+        </div></label>
+        <label>
+        <button class="clear">Clear drawing</button>
+        </label>
+        
+        <label>For save picture, click<br> the right mouse button<br>on your drawing and<br> choose 'Save picture as...'</label>
+        
+    </div>
+    <canvas id="painter"></canvas>
+
+</body>
+
+</html>
