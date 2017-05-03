@@ -1,0 +1,141 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 238, 240);
+    overflow-x: hidden;
+}
+
+.main {
+    font-weight: 600;
+    text-align: center;
+    margin: 2% auto;
+    width: 500px;
+    height: auto;
+    background-color: rgba(183, 161, 147, 0.8);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tile {
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    padding: 0px;
+    margin: 5px;
+    height: 100px;
+    background-color: rgba(200, 200, 190, 0.7);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2.5rem;
+    border-radius: 2px;
+    transition: .7s;
+}
+
+.tile:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.active {
+   background-color: rgb(235, 228, 230);
+}
+.four {
+    background-color: rgb(163, 163, 163);
+    color: #fff;
+}
+.eight {
+    background-color: rgb(240, 182, 75);
+    color: #fff;
+}
+.sixteen {
+   background-color: rgb(240, 138, 75);
+    color: #fff;
+}
+.thirtytwo {
+    background-color: rgb(242, 92, 38);
+    color: #fff;
+}
+.sixtyfour {
+    background-color: rgb(239, 63, 0);
+    color: #fff;
+}
+.o-o {
+    background-color: rgb(239, 183, 0);
+    color: #fff;
+}
+.t-t {
+    background-color: rgb(220, 133, 0);
+    color: #fff;
+}
+.f-f {
+    background-color: rgb(227, 11, 116);
+    color: #fff;
+}
+.thousand {
+    background-color: #000;
+    color: #fff;
+}
+
+.results {
+    position: relative;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.over {
+    margin: 1% auto;
+    font-size: 2rem;
+    width: 20%;
+    background-color: rgba(232, 68, 53, 0.9);
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    visibility: hidden;
+}
+
+.new {
+    margin-left: 2%;
+    border: none;
+    padding: 3px;
+    font-size: 1.4rem;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.new:hover {
+    background-color: rgba(241, 242, 241, 0.6);
+}
+
+.help {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    background-color: rgb(102, 102, 102);
+    color: #fff;
+    width: 20%;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

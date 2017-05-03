@@ -32,7 +32,8 @@ window.onload = function () {
         clearBut.onclick = function() {  // Clear button
             ctx.clearRect(0, 0, canvas.width, canvas.height);
         }
-
+        
+    
 
         canvas.addEventListener("mousemove", draw); // draw, when mousemove
         canvas.addEventListener("mousedown", (e) => {
