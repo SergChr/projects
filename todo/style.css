@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    padding: 0;
+    margin 0;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+.input {
+    margin: 1% auto;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+      -webkit-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+-moz-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+}
+
+.newBlock {
+    text-align: left;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    position: relative;
+    background-color: #fff;
+    margin: 1.5% auto;
+    word-break: break-all;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+-moz-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+    border-radius: 5px;
+}
+
+.trash {
+    color: rgb(235,235,235);
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    cursor: pointer;
+}
+.trash:hover {
+    color: rgb(236, 79, 79);
+}
+
+.okIcon {
+    color: rgb(235,235,235);
+    position: absolute;
+    top: 1px;
+    right: 25px;
+    cursor: pointer;
+}
+.okIcon:hover {
+    color: rgb(63, 191, 127);
+}
+
+.newBlock input {
+    font-family: 'Roboto', sans-serif;
+    padding: 1px;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
